@@ -1,0 +1,22 @@
+.image-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image {
+  width: 500px;
+  height: auto;
+  max-height: 650px;
+  border-radius: 35px 10px;
+}
+
+.slider-buttons {
+  margin: 10px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}

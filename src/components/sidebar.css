@@ -1,0 +1,53 @@
+.sidebar {
+    height: 100vh;
+    width: 100px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0; /* Ensures the sidebar covers the entire height of the viewport */
+    /* display: flex;
+    justify-content: space-between; */
+  }
+
+img {
+    width: 50%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    border-radius: 20px;
+}
+
+
+nav a {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a * {
+    padding: 5px;
+    margin: 15px;
+    scale: 1.3;
+}
+
+nav a *:hover {
+    color: #ffd700;
+}
+
+#nav-margin {
+    margin-top: 8vh;
+}
+
+#linkedin {
+    margin-top: 15vh;
+}

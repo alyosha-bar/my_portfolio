@@ -1,0 +1,53 @@
+
+
+.projects-nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    list-style: none;
+    margin-left: 15%;
+    opacity: 0;
+    animation: fadeInUp 0.5s 1s;
+    animation-fill-mode: forwards;
+}
+
+.project-link {
+    padding: 25px;
+}
+
+.project-link a {
+    font-family: 'Coolvetica';
+    font-size: 1.3rem;
+    color: white;
+}
+
+.project-link a:hover {
+    color: #4d4d4e;
+    scale: 1.1;
+}
+
+
+.project-area {
+    display: flex;
+    margin-left: 10vw;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-area {
+    padding: 35px;
+    /* border: 10px solid white; */
+}
+
+
+p {
+    max-width: 1000px;
+    margin-right: 5vw;
+}
+
+.img-slider {
+    opacity: 0;
+    animation: fadeInUp 0.8s 1.3s;
+    animation-fill-mode: forwards;
+}
