@@ -18,7 +18,7 @@
 .project-link a {
     font-family: 'Coolvetica';
     font-size: 1.3rem;
-    color: white;
+    /* color: white; */
 }
 
 .project-link a:hover {
